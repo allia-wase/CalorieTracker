@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #435fda;
+  --secondary-color: #d8415c;
+  --body-font-size: 16px;
+  --line-height: 1.5;
+  --content-width: 480px;
+  --background-color: #fff;
+  --background-color-secondary: #f8f8f9;
+  --text-color: #060914;
+  --text-color--muted: #71737f;
+  --line-color: #ededef;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #657bdb;
+    --primary-color--translucent: rgba(85, 106, 195, 0.3);
+    --secondary-color: #d93d59;
+    --background-color: #060913;
+    --background-color-secondary: #0f1424;
+    --text-color: #e4e4e7;
+    --text-color--muted: #838690;
+    --line-color: #303341;
+  }
+}
+/* ... Rest of the CSS code from the file */
